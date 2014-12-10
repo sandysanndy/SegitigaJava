@@ -19,7 +19,7 @@ public class SegitigaSamaKaki {
         int n;
         int j;
         Scanner in = new Scanner(System.in);
-        System.out.print("Masukkan baris = ");
+        System.out.print("Enter baris = ");
         n = in.nextInt();
         long startTime = System.nanoTime();
         for(int i=1; i<=n; i++) {
@@ -35,6 +35,6 @@ public class SegitigaSamaKaki {
     	double elapsedTime = (double) (stopTime - startTime)/1000000;
     	
         System.out.println();
-        System.out.println("Waktu eksekusi = "+elapsedTime + " * 10^-3 detik");
+        System.out.println("Waktu eksekusi = "+elapsedTime + " x 10^-3 detik");
     }
 }
