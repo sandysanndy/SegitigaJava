@@ -35,6 +35,6 @@ public class SegitigaSamaKaki {
     	double elapsedTime = (double) (stopTime - startTime)/1000000;
     	
         System.out.println();
-        System.out.println("Waktu eksekusi = "+elapsedTime + " * 10^-3 detik");
+        System.out.println("Waktu eksekusi = "+elapsedTime + " x 10^-3 detik");
     }
 }
